@@ -1,0 +1,34 @@
+function setup() {
+  createCanvas(800,700);
+  createSprite(85,650,150,100);
+  createSprite(715,650,150,100);
+  createSprite(85,593,150,10);
+  createSprite(715,593,150,10);
+  createSprite(85,385,150,400);
+  createSprite(715,385,150,400);
+  createSprite(213,650);
+  createSprite(587,650);
+  createSprite(213,593,100,10);
+  createSprite(587,593,100,10);
+  createSprite(213,435,100,300);
+  createSprite(587,435,100,300);
+  createSprite(400,350,400,150);
+  createSprite(85,150,160,100);
+  createSprite(715,150,160,100);
+  createSprite(65,100,25,25);
+  createSprite(105,100,25,25);
+  createSprite(25,100,25,25);
+  createSprite(145,100,25,25);
+  createSprite(695,100,25,25);
+  createSprite(655,100,25,25);
+  createSprite(735,100,25,25);
+  createSprite(775,100,25,25);
+  createSprite(400,250,150,100);
+  createSprite(400,175,160,75);
+  createSprite(350,150,50,50);
+  createSprite(450,150,50,50);
+}
+function draw() {
+  background(200,200,200);  
+  drawSprites();
+}
